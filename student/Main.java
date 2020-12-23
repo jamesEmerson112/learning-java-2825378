@@ -1,6 +1,7 @@
 // package student;
 import java.util.Scanner;
 
+
 public class Main {
     /*
     public static void main(String[] args) {
@@ -18,8 +19,8 @@ public class Main {
         
         System.out.println("studentGPA is " + studentGPA);
     }
-    */
-
+    
+/*
     public static void announceDeveloperTeaTime() {
         System.out.println("Waiting for developer tea time ...");
         System.out.println("Type in a random word and press Enter to start developer tea time");
@@ -27,4 +28,14 @@ public class Main {
         input.next();
         System.out.println("It's developer tea time!");
     }
+    */
+
+    public static void main(String[] args) {
+        Triangle triangleA = new Triangle (15, 8, 15, 8, 15);
+    
+        double triangleAArea = triangleA.findArea();
+        System.out.println(triangleAArea);
+    }
 }
+
+
